@@ -39,3 +39,9 @@ docker attach (container name | container id)
 ### fetch past logs by a container 
 
 docker logs (container name | container id)
+
+### Running a container in interactive mode 
+
+<!-- -t because this creates a terminal basically -->
+
+docker run -i -t ( container name )
